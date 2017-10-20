@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: .14rem; }
+
+html, body, .box {
+  width: 100%;
+  height: 100%;
+  background: #EDEDED; }
+
+html {
+  font-size: 625%; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+.header, .header p, .header p:nth-of-type(2) a, .section .icon, .section .icon a, .section .table-box .table-cent p, .section .table-box .table-cent p a, .section .ison-box .ison ul li, .section .ison-box .ison ul li p, .section .ison-box .ison ul li b:nth-of-type(1), .section .activity ol li span:nth-of-type(3), .section .like-box .like-car ul li p:nth-of-type(1), .section .like-box form, .footer, .footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.box {
+  display: flex;
+  flex-direction: column; }
+
+.header {
+  width: 100%;
+  height: 50px;
+  background: #ffffff; }
+  .header p {
+    flex: 1;
+    height: 100%; }
+    .header p:nth-of-type(2) a {
+      flex: .5;
+      height: 100%;
+      padding: 10px;
+      font-size: 18px;
+      color: #9D9D9D;
+      cursor: pointer; }
+      .header p:nth-of-type(2) a.bg {
+        color: #000000;
+        border-bottom: 2px solid #000000; }
+
+.section {
+  width: 100%;
+  flex: 1;
+  overflow-y: scroll; }
+  .section .logo {
+    width: 100%;
+    height: 235px; }
+    .section .logo .logo-box {
+      width: 100%;
+      height: 235px; }
+      .section .logo .logo-box li {
+        width: 100%;
+        height: auto; }
+        .section .logo .logo-box li img {
+          width: 100%; }
+    .section .logo .pagination {
+      margin: 0; }
+      .section .logo .pagination span {
+        width: 25px;
+        height: 8px;
+        background: #ffffff;
+        border-radius: 0; }
+  .section .icon {
+    width: 100%;
+    height: 120px;
+    background: #ffffff; }
+    .section .icon a {
+      flex: 1;
+      flex-direction: column;
+      font-size: 16px; }
+      .section .icon a span {
+        width: 50px;
+        height: 50px;
+        display: block;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        text-align: center;
+        line-height: 50px; }
+        .section .icon a span i {
+          font-size: 28px;
+          color: #ffffff; }
+  .section .img-box {
+    width: 100%;
+    height: 69px; }
+    .section .img-box img {
+      width: 100%;
+      height: 69px; }
+  .section .table-box {
+    width: 100%;
+    height: auto;
+    background: #ffffff; }
+    .section .table-box .table-top {
+      width: 100%;
+      height: 50px; }
+      .section .table-box .table-top h4 {
+        line-height: 50px;
+        padding-left: 20px; }
+    .section .table-box .table-cent {
+      width: 100%; }
+      .section .table-box .table-cent p {
+        width: 100%;
+        height: 80px;
+        flex-wrap: wrap; }
+        .section .table-box .table-cent p a {
+          flex: 1;
+          height: 100%;
+          flex-direction: column;
+          border-top: 1px solid #cccccc;
+          border-right: 1px solid #cccccc;
+          font-size: 16px; }
+          .section .table-box .table-cent p a i {
+            font-size: 28px;
+            margin-bottom: 5px; }
+  .section .ison-box {
+    width: 100%;
+    height: auto;
+    background: #ffffff; }
+    .section .ison-box p {
+      width: 100%;
+      height: 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .section .ison-box p span {
+        font-size: 18px; }
+        .section .ison-box p span:nth-of-type(1) {
+          padding-left: 15px; }
+        .section .ison-box p span:nth-of-type(2) {
+          padding-right: 15px; }
+          .section .ison-box p span:nth-of-type(2) i {
+            display: inline-block;
+            font-style: normal;
+            width: 25px;
+            height: 25px;
+            background: #555555;
+            text-align: center;
+            line-height: 25px;
+            color: #ffffff; }
+    .section .ison-box .ison {
+      width: 100%;
+      height: 180px; }
+      .section .ison-box .ison ul {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        overflow-x: scroll; }
+        .section .ison-box .ison ul li {
+          width: 50%;
+          height: 160px;
+          flex-shrink: 0; }
+          .section .ison-box .ison ul li p {
+            position: relative;
+            width: 90%;
+            height: 90%;
+            border: 1px solid #cccccc;
+            flex-direction: column; }
+            .section .ison-box .ison ul li p i {
+              position: absolute;
+              left: -35px;
+              top: -35px;
+              width: 0;
+              height: 0;
+              content: "";
+              border: 35px solid transparent;
+              border-right-color: #d5006a;
+              transform: rotate(45deg); }
+              .section .ison-box .ison ul li p i em {
+                position: absolute;
+                left: 10px;
+                top: -19px;
+                font-size: 12px;
+                color: #ffffff;
+                transform: rotate(-90deg);
+                font-style: normal; }
+          .section .ison-box .ison ul li b {
+            width: 100%;
+            font-weight: normal; }
+            .section .ison-box .ison ul li b:nth-of-type(1) img {
+              width: 80%;
+              height: 80px; }
+            .section .ison-box .ison ul li b:nth-of-type(2) {
+              line-height: 30px;
+              font-size: 16px; }
+            .section .ison-box .ison ul li b:nth-of-type(3) {
+              width: 100%; }
+              .section .ison-box .ison ul li b:nth-of-type(3) span {
+                font-size: 16px;
+                color: #FB5F11; }
+  .section .activity {
+    width: 100%;
+    height: auto;
+    background: #ffffff; }
+    .section .activity p {
+      width: 100%;
+      height: 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .section .activity p span {
+        font-size: 18px; }
+    .section .activity ol {
+      width: 100%;
+      height: 140px;
+      display: flex; }
+      .section .activity ol li {
+        border-top: 1px solid #cccccc;
+        border-right: 1px solid #cccccc;
+        flex: 1;
+        height: 100%;
+        flex-direction: column;
+        display: flex; }
+        .section .activity ol li span {
+          width: 100%;
+          display: block;
+          height: 30px;
+          line-height: 30px;
+          padding-left: 10px; }
+          .section .activity ol li span:nth-of-type(3) {
+            width: 100%;
+            height: 80px; }
+            .section .activity ol li span:nth-of-type(3) img {
+              width: 100px;
+              height: 80px; }
+  .section .like-box {
+    width: 100%;
+    height: auto;
+    background: #ffffff; }
+    .section .like-box p {
+      width: 100%;
+      height: 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .section .like-box p span {
+        font-size: 18px; }
+    .section .like-box .like-car {
+      width: 100%; }
+      .section .like-box .like-car ul {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap; }
+        .section .like-box .like-car ul li {
+          display: flex;
+          flex-direction: column;
+          width: 50%;
+          height: 190px;
+          border-top: 1px solid #cccccc;
+          border-right: 1px solid #cccccc; }
+          .section .like-box .like-car ul li p {
+            width: 100%;
+            font-size: 16px; }
+            .section .like-box .like-car ul li p:nth-of-type(1) {
+              height: 80px; }
+              .section .like-box .like-car ul li p:nth-of-type(1) img {
+                width: 100px;
+                height: 70px; }
+            .section .like-box .like-car ul li p:nth-of-type(2) {
+              height: 30px;
+              padding-left: 10px; }
+            .section .like-box .like-car ul li p:nth-of-type(3) {
+              padding-left: 10px;
+              color: #9D9D9D; }
+          .section .like-box .like-car ul li b {
+            font-size: 16px;
+            font-weight: normal;
+            padding-left: 10px; }
+            .section .like-box .like-car ul li b span {
+              color: #FC7F41; }
+            .section .like-box .like-car ul li b s {
+              padding-left: 10px;
+              color: #9D9D9D; }
+    .section .like-box form {
+      width: 100%;
+      height: 40px; }
+
+.footer {
+  width: 100%;
+  height: 80px;
+  background: #FBFBFB; }
+  .footer a {
+    flex: 1;
+    flex-direction: column;
+    font-size: 16px; }
+    .footer a i {
+      font-size: 24px; }
+
+/*# sourceMappingURL=style.css.map */

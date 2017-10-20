@@ -1,0 +1,113 @@
+<div class="logo">
+    <div class="swiper-container logo-box">
+        <ul class="swiper-wrapper">
+            <li class="swiper-slide"><img src="Content/img/1.jpg" alt=""></li>
+            <li class="swiper-slide"><img src="Content/img/1.jpg" alt=""></li>
+            <li class="swiper-slide"><img src="Content/img/1.jpg" alt=""></li>
+        </ul>
+        <div class="swiper-pagination pagination"></div>
+    </div>
+</div>
+<div class="icon">
+    <a href="javascript:;"><span style="background: #FF6565"><i class="iconfont">&#xe67f;</i></span>车商城</a>
+    <a href="javascript:;"><span style="background: #FF9D3D"><i class="iconfont">&#xe67a;</i></span>分期购车</a>
+    <a href="javascript:;"><span style="background: #FF6565"><i class="iconfont">&#xe67d;</i></span>团购活动</a>
+    <a href="javascript:;"><span style="background: #4183FF"><i class="iconfont">&#xe6b4;</i></span>找二手车</a>
+</div>
+<div class="img-box">
+    <img src="Content/img/img_1.png" alt="">
+</div>
+<div class="table-box mb10">
+    <div class="table-top">
+        <h4>车主服务</h4>
+    </div>
+    <div class="table-cent">
+        <p>
+            <a href="javaascript:;"><i class="iconfont" style="color: #F75757">&#xe642;</i>油卡充值</a>
+            <a href="javaascript:;"><i class="iconfont" style="color: #0BA570;">&#xe612;</i>油卡充值</a>
+            <a href="javaascript:;"><i class="iconfont" style="color: #7760EF">&#xe68f;</i>油卡充值</a>
+            <a href="javaascript:;"><i class="iconfont" style="color: #0BA570;">&#xe644;</i>油卡充值</a>
+        </p>
+        <p>
+            <a href="javaascript:;"><i class="iconfont" style="color: #F75757">&#xe640;</i>油卡充值</a>
+            <a href="javaascript:;"><i class="iconfont" style="color: #6FA1FF;">&#xe641;</i>油卡充值</a>
+            <a href="javaascript:;"><i class="iconfont" style="color: #F75757">&#xe775;</i>油卡充值</a>
+            <a href="javaascript:;"><i class="iconfont" style="color: #F75757">&#xe633;</i>油卡充值</a>
+        </p>
+        <p>
+            <a href="javaascript:;"><i class="iconfont" style="color: #71A2FF">&#xe69c;</i>油卡充值</a>
+            <a href="javaascript:;"><i class="iconfont" style="color: #0AA570">&#xe6a4;</i>油卡充值</a>
+            <a href="javaascript:;"><i class="iconfont" style="color: #4183FF">&#xe6a8;</i>油卡充值</a>
+            <a href="javaascript:;"><i class="iconfont" style="color: #5F5F5F">&#xe6ad;</i>油卡充值</a>
+        </p>
+    </div>
+</div>
+<div class="ison-box mb10">
+    <p><span>限时抢购</span><span><i>13</i>:<i>13</i>:<i>13</i></span></p>
+    <div class="ison" id="ison">
+        <ul class="ison_nav">
+            <li>
+                <p>
+                    <b><img src="Content/img/img_1.gif" alt=""></b>
+                    <b class="pl10">补胎工具简约套装</b>
+                    <b><span class="pl10">￥9.9元</span><s class="pl30">28元</s></b>
+                    <i></i>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <b><img src="Content/img/img_2.gif" alt=""></b>
+                    <b class="pl10">车用已被挂钩</b>
+                    <b><span class="pl10">￥9.9元</span><s class="pl30">28元</s></b>
+                    <i>
+                        <em>爆款</em>
+                    </i>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <b><img src="Content/img/img_2.gif" alt=""></b>
+                    <b class="pl10">车用已被挂钩</b>
+                    <b><span class="pl10">￥9.9元</span><s class="pl30">28元</s></b>
+                    <i>
+                        <em>爆款</em>
+                    </i>
+                </p>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="activity mb10">
+    <p><span class="pl10">活动专区</span><span class="pr10" style="color: #9D9D9D">更多活动 ></span></p>
+    <ol>
+        <li>
+            <span>测身价炫富</span>
+            <span style="color: #FC7F41">身价大pk</span>
+            <span><img src="Content/img/img_5.gif" alt=""></span>
+        </li>
+        <li>
+            <span>测身价炫富</span>
+            <span style="color: #FC7F41">身价大pk</span>
+            <span><img src="Content/img/img_4.gif" alt=""></span>
+        </li>
+        <li>
+            <span>测身价炫富</span>
+            <span style="color: #FC7F41">身价大pk</span>
+            <span><img src="Content/img/img_3.gif" alt=""></span>
+        </li>
+    </ol>
+</div>
+<div class="like-box">
+    <p><span class="pl10">猜你喜欢</span><span class="pr10" style="color: #9D9D9D">更多 ></span></p>
+    <div class="like-car car">
+        <ul>
+            <li ng-repeat="set in sets">
+                <p><img ng-src="{{set.imgUrl}}" alt=""></p>
+                <p>{{set.cent}}</p>
+                <p>{{set.cont}}</p>
+                <b><span>{{set.price}}</span><s>{{set.num}}</s></b>
+            </li>
+        </ul>
+    </div>
+    <form action=""><input type="button" value="点击加载" class="ipt"></form>
+</div>
